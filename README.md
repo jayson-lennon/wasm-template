@@ -21,14 +21,14 @@ Check:
 
 ```
 /
-|-- src
-  |-- crate
-      |--  # Rust code lives here
-  |-- web
-      |-- index.pug     # web app entry point
-      |-- js
-          |-- # Wasm loader & any custom JS goes here
-      |-- style
-          |-- # Sass files here
+| src
+  | crate
+    | ... Rust code
+  | web
+    | index.pug
+    | js
+      | ... Wasm loader & any custom JS
+    | style
+      | ... Sass files
 ```
 
