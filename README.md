@@ -1,6 +1,6 @@
 # Rust WASM template
 
-This is my basic opinionated template for bootstrapping Rust Wasm applications.
+This is my basic template for bootstrapping Rust Wasm applications.
 
 ## Setup
 
