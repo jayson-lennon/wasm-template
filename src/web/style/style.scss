@@ -1,0 +1,17 @@
+@import "normalize.scss";
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: #ffffff;
+  color: #000000;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@mixin media-at-least($break) {
+  @media (min-width: $break) { @content; }
+}

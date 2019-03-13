@@ -1,0 +1,22 @@
+{
+  "name": "wasm-template",
+  "version": "1.0.0",
+  "description": "A basic template for bootstrapping Rust WASM applications.",
+  "main": "loader.js",
+  "author": "[your name here]",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "parcel build src/web/index.pug",
+    "serve": "parcel serve src/web/index.pug",
+    "check": "cd src/crate && cargo check",
+    "clippy": "cd src/crate && cargo clippy",
+    "clean": "rm -Rf dist",
+    "clear-cache": "rm -Rf .cache"
+  },
+  "devDependencies": {
+    "parcel-plugin-cargo-web": "^0.3.1",
+    "pug": "^2.0.3",
+    "sass": "^1.17.2"
+  }
+}
