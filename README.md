@@ -4,7 +4,11 @@ This is my basic template for bootstrapping Rust Wasm applications.
 
 ## Setup
 
-`npm install`
+```
+git clone https://github.com/jayson-lennon/wasm-template
+cd wasm-template
+npm install
+```
 
 ## Usage
 
