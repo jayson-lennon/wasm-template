@@ -21,7 +21,7 @@ Build:
 Check:
 `npm run clippy`
 
-## Arrangement Of The Template
+## Template Layout
 
 ```
 /
